@@ -1,11 +1,14 @@
-Data Dictionary for tidysummary.txt file. The file is a comma separated file. 
-Note that several columns represent values in an x, y, or z direction. These 
-columns are grouped together in the following descriptions. For example, 
-accmeanx, accmeany and accmeanz will be shown as accmeanx,y,z.
-Columns 3-42 are time measurements. 
-Columns 43-end are Fast Fourier Transform (FFT) measurements. 
+##Data Dictionary for tidysummary.txt file. 
 
-1       subject 
+###Overview
+The file is a comma separated file.
+Note that several columns represent values in an x, y, or z direction. These columns are
+grouped together in the following descriptions. For example, accmeanx, accmeany and
+accmeanz will be shown as accmeanx,y,z.
+Columns 3-42 are time measurements. 
+Columns 43-68 are Fast Fourier Transform (FFT) measurements. 
+
+1       subject
             numeric value of anonymous subject 1..30
 2       activity
             character value denoting activity
@@ -22,7 +25,7 @@ Columns 43-end are Fast Fourier Transform (FFT) measurements.
 9-11    gravityaccmeanx,y,z
             mean of the X data tGravityAcc-mean-X,Y,Z (columns 41-43 in X data)
 12-14   gravityaccstdx,y,z
-            mean of the X data tGravityAcc-std-X,Y,Z (columns 44-46 in X data)        
+            mean of the X data tGravityAcc-std-X,Y,Z (columns 44-46 in X data)
 15-17   accjerkmeanx,y,z
             mean of the X data tBodyAccJerk-mean-X,Y,Z (columns 81-83 in X data)
 18-20   accjerkstdx,y,z
@@ -42,11 +45,11 @@ Columns 43-end are Fast Fourier Transform (FFT) measurements.
 35      gravityaccmagmean
             mean of the X data tGravityAccMag-mean (column 214 in X data)
 36      gravityaccmagstd
-            mean of the X data tGravityAccMag-std (column 215 in X data)            
+            mean of the X data tGravityAccMag-std (column 215 in X data)
 37      accjerkmagmean
             mean of the X data tBodyAccJerkMag-mean (column 227 in X data)
 38      accjerkmagstd
-            mean of the X data tBodyAccJerkMag-std (column 228 in X data)           
+            mean of the X data tBodyAccJerkMag-std (column 228 in X data)
 39      gyromagmean
             mean of the X data tBodyGyroMag-mean (column 240 in X data)
 40      gyromagstd
@@ -70,11 +73,11 @@ Columns 43-end are Fast Fourier Transform (FFT) measurements.
 61      fftaccmagmean
             mean of the X data fBodyAccMag-mean (column 503 in X data)
 62      fftaccmagstd
-            mean of the X data fBodyAccMag-std (column 504 in X data)            
+            mean of the X data fBodyAccMag-std (column 504 in X data)
 63      fftaccjerkmagmean
             mean of the X data fBodyAccJerkMag-mean (column 516 in X data)
 64      fftaccjerkmagstd
-            mean of the X data fBodyAccJerkMag-std (column 517 in X data)           
+            mean of the X data fBodyAccJerkMag-std (column 517 in X data)
 65      fftgyromagmean
             mean of the X data fBodyGyroMag-mean (column 529 in X data)
 66      fftgyromagstd
