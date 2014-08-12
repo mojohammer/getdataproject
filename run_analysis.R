@@ -1,5 +1,5 @@
 #####
-#  Program - run_analysys.R
+#  Program - run_analysis.R
 #  This program provides the solution to the project in the Getting and Cleaning Data class. 
 #  Comments are to document this code. For more info, refer to the README.md file. 
 #  For more info on the output of this program, see the run book for this project. 
